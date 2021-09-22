@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!---knockout.js cdn link-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script> 
+    <title>computed Observables red & write</title>
+</head>
+<body>
+    
+    FirstName: <input type="text" data-bind="value:firstname">
+    LastName: <input type="text" data-bind="value:lastname"><br>
+   <div data-bind="text:fullname"></div>
+   FullName:<input type="text" data-bind="value:fullname">
+
+    <script src="test3.js"></script>
+</body>
+</html>
